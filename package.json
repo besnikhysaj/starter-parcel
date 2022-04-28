@@ -2,7 +2,6 @@
   "name": "starter-parcel",
   "version": "1.0.0",
   "description": "Starter template with parcel",
-  "main": "index.js",
   "scripts": {
     "start": "rm -rf .parcel-cache && rm -rf dist && parcel *.html",
     "prebuild": "npx rimraf build",
