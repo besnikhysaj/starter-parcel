@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Starter template with parcel",
   "scripts": {
-    "start": "rm -rf .parcel-cache && rm -rf dist && parcel *.html",
+    "start": "rm -rf .parcel-cache && rm -rf dist && parcel *.html --open",
     "prebuild": "npx rimraf build",
     "build": "rm -rf build && parcel build *.html --dist-dir ./build --public-url ."
   },
@@ -14,16 +14,16 @@
   "keywords": [
     "parcel, bootstrap"
   ],
-  "author": "Besnik Hysaj, Art Parapani",
+  "author": "Besnik Hysaj",
   "license": "ISC",
   "homepage": "https://github.com/besnikhysaj/starter-parcel#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0-rc.0",
-    "parcel": "^2.0.0-rc.0"
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.5.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4",
-    "@popperjs/core": "^2.10.1",
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@popperjs/core": "^2.11.5",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.1.3"
   }

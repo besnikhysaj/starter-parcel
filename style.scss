@@ -12,34 +12,8 @@ Text Domain: example
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css";
 
-// Include any default variable overrides here (though functions won't be available)
-$enable-responsive-font-sizes: true;
-
-$font-family-sans-serif: "Roboto", sans-serif;
-
-$theme-colors: ("blue": #007bff,
-    "indigo": #6610f2,
-    "purple": #6f42c1,
-    "pink": #e83e8c,
-    "red": #dc3545,
-    "orange": #fd7e14,
-    "yellow": #ffc107,
-    "green": #28a745,
-    "teal": #20c997,
-    "cyan": #17a2b8,
-    "white": #ffffff,
-    "gray": #6c757d,
-    "gray-dark": #343a40,
-    "primary": #007bff,
-    "secondary": #6c757d,
-    "success": #28a745,
-    "info": #17a2b8,
-    "warning": #ffc107,
-    "danger": #dc3545,
-    "light": #f8f9fa,
-    "dark": #343a40,
-    "custom-color": #f7f7f7,
-);
+@import "./scss/variables";
+@import "./scss/utilities";
 
 @import "node_modules/bootstrap/scss/bootstrap";
 // Then add additional custom code here
